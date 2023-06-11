@@ -1,4 +1,4 @@
-# amanbehindyou.github.com
+# amanbehindyou.com
 
 MY WEBSITE OW HELL YES!
 
