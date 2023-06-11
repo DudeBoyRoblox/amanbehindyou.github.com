@@ -1,0 +1,9 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(VRC_OSD_MONO.ttf);
+}
+ 
+h2 {
+   font-family: myFirstFont;
+   color: darkgreen;
+}
