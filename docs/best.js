@@ -1,17 +1,11 @@
-function eliminateSubdomains(url) {
-  // Remove ".github" subdomain
-  url = url.replace(".github", "");
+// Get the current URL
+const url = window.location.href;
 
-  // Remove ".io" subdomain
-  url = url.replace(".io", "");
+// Check if the URL contains ".github" or ".io"
+if (url.includes(".github") || url.includes(".io")) {
+  // Replace ".github" or ".io" with ".gg"
+  const newUrl = url.replace(".github", "").replace(".io", ".gg");
 
-  // Add ".com" as the top-level domain
-  url = url + ".com";
-
-  return url;
+  // Redirect to the new URL
+  window.location.href = newUrl;
 }
-
-// Example usage
-const originalUrl = "https://subdomain.github.io";
-const modifiedUrl = eliminateSubdomains(originalUrl);
-console.log(modifiedUrl);
