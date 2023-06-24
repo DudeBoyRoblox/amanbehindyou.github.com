@@ -1,8 +1,11 @@
-<body style="background-color:black;">
+.element {
+  background-image: url('/docs/VHS.jpg');
+}
+
 
 @font-face {
    font-family: myFirstFont;
-   src: url(VRC_OSD_MONO.ttf);
+   src: url(/docs/VRC_OSD_MONO.ttf);
 }
  
 h2 {
